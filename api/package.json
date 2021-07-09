@@ -1,0 +1,27 @@
+{
+  "name": "myspace",
+  "version": "1.0.0",
+  "description": "Building a Myspace Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Hartnett",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.865.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "connect-busboy": "0.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "factory-girl": "^5.0.4",
+    "faker": "^5.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
