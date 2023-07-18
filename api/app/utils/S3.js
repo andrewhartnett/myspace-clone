@@ -1,5 +1,5 @@
-const ACCESS_KEY = "AKIAVZXJ6BNL4XDUDGAI"
-const SECRET = "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"
+const ACCESS_KEY = process.env.ACCESS_KEY
+const SECRET = process.env.AWS_ACCESS_SECRET
 const AWS = require('aws-sdk');
 
 module.exports = {
